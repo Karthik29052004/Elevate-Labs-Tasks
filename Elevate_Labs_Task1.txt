@@ -1,0 +1,61 @@
+TASK 1 Scan Your Local Network for Open Ports
+
+
+
+
+Name: Jandhyala Venkata Sitaramasai Karthikeya
+
+E-mail: karthikjandhyala29@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+Outcome of nmap scan:
+
+# Nmap 7.94SVN scan initiated Mon Sep 22 09:22:45 2025 as: /usr/lib/nmap/nmap --privileged -sS -oN scan_results.txt 192.*.*.*/24
+Nmap scan report for 192.168.186.1
+Host is up (0.00070s latency).
+All 1000 scanned ports on 192.*.*.1 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 00:50:56:C0:00:08 (VMware)
+
+Nmap scan report for 192.*.*.2
+Host is up (0.00047s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: *:*:*:*:*:* (VMware)
+
+Nmap scan report for 192.*.*.*
+Host is up (0.00040s latency).
+All 1000 scanned ports on 192.*.*.* are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: *:*:*:*:*:* (VMware)
+
+Nmap scan report for 192.*.*.*
+Host is up (0.00012s latency).
+All 1000 scanned ports on 192.*.*.* are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+# Nmap done at Mon Sep 22 09:22:54 2025 -- 256 IP addresses (4 hosts up) scanned in 9.65 seconds
+
+
+
+
+
+
+
+Outcome of Wireshark:
+
+
+
+
